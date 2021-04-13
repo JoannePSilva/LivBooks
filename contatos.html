@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="liv_CSS/style.css">
+    <link rel="stylesheet" href="liv_CSS/styleHome.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivLivros</title>
+</head>
+<body>
+    <header id="#principal">
+        <div id="caixa-navegacao">
+            <h1><img class= "logo" src= "capa.jpeg" height="130" width="130" alt="capa"></h1>
+        </div>   
+           
+            <div class="principal">
+                <h1 style="text-align: center"> LivLivros</h1>
+            </div>
+        
+        
+    
+        <nav>        
+            <ul>
+                
+                <li><a href = "index.html"> Home </a> </li>
+                <li><a href = "livrosUsados.html"> Livros usados </a> </li>
+                <li><a href ="livrosNovos.html">Livros novos</a> </li>
+                <li><a href ="trocaTroca.html">Troca-Troca</a> </li>
+                <li><a href ="DicaDaSemana.html">Dica da semana </a></li>
+                <li><a href ="contatos.html">Contato</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    
+<body>
+    <main>
+    <form>
+       <div>
+        
+        <label for="nomeCompleto">Nome Completo:</label>
+        <input type="text" id="nomeCompleto" class="input-padrao" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="input-padrao"required placeholder="seuemail@dominio.com">
+        
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXXXXXX">
+        
+       <label for="mensagem">Mensagem</label>
+        <textarea cols="70"rows = "10" id = "mensagem"></textarea required>
+
+        </div>
+        
+       
+        <fieldset>
+        
+        <legend>Como gostaria de receber o nosso contato?</legend>
+        
+        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+       
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+       
+        <label for="radio-whatsapp"><input type="radio" name = "contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+              
+       
+        <legend>Qual turno prefere ser contatado(a)?</legend>
+        <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+        </select>
+   
+    <label class="checkbox"><input type ="checkbox" checked>Gostaria de receber as nossas novidades por email?</label>
+
+    <input type="submit" value = "Enviar formulário" class="enviar">
+
+       </fieldset>
+           <table>
+               <tr>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+           </table>
+        
+     </main>
+    </form>
+</body>
+
+<footer>
+    <img src="">
+    <p class="copyright">&copy; Copyright LivLivros - 2020</p>
+</footer>
+</body>
+</html>
+
+</html>

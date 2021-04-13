@@ -1,0 +1,155 @@
+header {
+    background: black;
+    padding: 10px;
+    height: 200px;
+   
+}
+
+
+body{
+   
+    background-color:lavenderblush;    
+}
+
+
+#titulo2{
+    text-align: left;
+}
+
+
+.caixa-navegacao{
+    position: relative;
+    width: 940px;    
+}
+
+
+.logo{
+    
+    width:45%;
+    padding: 10px, 10px, 10px;
+    margin-left: 30%;    
+}
+
+
+nav {
+    position: absolute;
+    top: 180px;
+    right: 80px;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 20px 0 50px;
+}
+
+
+nav a {
+    
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    padding-bottom: 30px; 
+    text-align: center;  
+      
+}
+
+
+nav a:hover {
+    color: pink;
+    text-decoration: underline;  
+}
+
+#leitora{
+    position: relative;
+    vertical-align: top;
+    width: 40%;
+    margin-left: 30%;
+    
+}
+
+#text{
+    text-align: center;
+    font-size:20px
+}
+
+
+.itens{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;    
+}
+
+
+.itensTexto{    
+    width: 50%;
+    display: inline-block; 
+    vertical-align: top; 
+      
+}
+
+.livros{
+    width: 40%;
+    position:relative;
+    display: inline-block;
+    vertical-align:top;
+    
+    
+}
+
+
+.bordas{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    border-color: black;
+    border-style:dotted;
+    border-radius: 2%;
+    width: 95%;
+    padding:1%;
+    margin-top: 2%;
+    margin-left:5%;
+    box-sizing: border-box;    
+}
+
+
+.bordas:hover{
+    background-color:pink;
+}
+
+
+footer{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    background: gray;
+    padding: 10px 0 0 10px;  
+    width:100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    position: float;
+    margin-top:50px;
+}
+
+
+footer a{
+    margin:30px;
+    text-decoration: none;
+    text-align: center;    
+    color: blue;    
+}
+
+
+footer p{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 0 0 10px;    
+}
+
+
+.copyright{
+    text-align: center;
+}

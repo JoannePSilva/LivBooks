@@ -1,0 +1,85 @@
+
+
+footer{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    background: gray;
+    padding: 10px 0 0 10px;  
+    width:100%;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    position: float;
+    margin-top:50px;
+}
+
+
+footer a{
+    margin:30px;
+    text-decoration: none;
+    text-align: center;    
+    color: blue;    
+}
+
+
+footer p{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 0 0 10px;    
+}
+
+
+.copyright{
+    text-align: center;
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+form{
+    margin: 40px;
+}
+
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+}
+
+
+.checkbox{
+    margin: 20px 0;
+}
+
+
+fieldset{
+    border:none;
+}
+
+
+.enviar{
+    width: 30%;
+    background: gray;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius:2px;
+    margin-left: 30%;
+}
+.enviar:hover{
+    background: lightgray;
+    cursor:pointer;
+    transition: 1s;
+    transform:scale(1.1)
+}

@@ -1,2 +1,2 @@
-# LivBooks
-Projeto livlivros
+# livlivros
+ Projeto bookstore
