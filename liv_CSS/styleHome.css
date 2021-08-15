@@ -19,15 +19,16 @@ body{
 
 .caixa-navegacao{
     position: relative;
-    width: 940px;    
+    width: 940px;
+        
 }
 
 
 .logo{
     
-    width:45%;
+    width:30%;
     padding: 10px, 10px, 10px;
-    margin-left: 30%;    
+    margin-left: 50%;    
 }
 
 
@@ -40,7 +41,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 20px 0 50px;
+    margin: 5 5px 5 5px;
 }
 
 
